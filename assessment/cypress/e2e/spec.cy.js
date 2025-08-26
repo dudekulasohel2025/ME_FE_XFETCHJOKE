@@ -52,7 +52,7 @@ describe("Fetch Joke App", () => {
     ).as("getJokeSlow");
 
     cy.contains("button", "Fetch joke").click().should("be.disabled");
-    cy.contains("button", "Fetching…").should("exist");
+    cy.contains("button", "Fetching...").should("exist");
     cy.wait("@getJokeSlow");
     cy.contains("button", "Fetch joke").should("not.be.disabled");
   });
