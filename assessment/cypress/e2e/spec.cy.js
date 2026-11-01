@@ -1,5 +1,5 @@
 describe("Fetch Joke App", () => {
-  const url = "http://localhost:5173";
+  const url = "https://me-fe-xfetchjoke.vercel.app/";
 
   beforeEach(() => {
     cy.visit(url);

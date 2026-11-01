@@ -1,0 +1,6 @@
+{
+    "Test Case 1: Fetch Joke App - loads the page and shows heading & button": "TEST_STATUS_SUCCESS",
+    "Test Case 2: Fetch Joke App - fetches and displays a joke (stubbed API)": "TEST_STATUS_SUCCESS",
+    "Test Case 3: Fetch Joke App - disables button during loading and re-enables after": "TEST_STATUS_SUCCESS",
+    "Test Case 4: Fetch Joke App - shows error and allows retry": "TEST_STATUS_SUCCESS"
+}
